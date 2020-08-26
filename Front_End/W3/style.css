@@ -1,0 +1,218 @@
+*{
+  padding: 0px;
+  margin:  0px;
+  /* border: solid red 1px; */
+}
+
+.border{
+  border: solid green 1px;
+}
+
+.width200{
+  width: 200px;
+}
+
+.height200{
+  height: 200px;
+}
+
+.container{
+  padding: 30px;
+}
+
+.topPadding{
+  position: absolute;
+  top: 0px;
+  right: 45%;
+  width: 150px;
+  height: 15px;
+  border: .5px dashed orange;
+}
+
+.wrapper{
+  padding: 30px;
+  border: dashed 1px green;
+}
+
+.header{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.subheader{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1,h2,h3,h4,h5,h6, .right, .left, .css{
+  display: inline-block;
+}
+
+.left,.right,.css{
+  vertical-align: top;
+}
+
+.left{
+  margin-right: 250px;
+  width: 200px;
+}
+
+.right{
+width: 200px;
+margin-right: 50px;
+}
+.highlighted{
+  background-color: aqua;
+}
+
+.css{
+  width: 300px;
+  border: solid 1px lightskyblue;
+}
+
+/* Grid */
+.grid{
+  height: 200px;
+  width: 600px;
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 20px 20px 20px 60px;
+}
+
+.item_1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.item_2{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.item_3{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.item_4{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.item_5{
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+/* .item_6{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.item_7{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 5;
+} */
+
+
+/* Horizontal & Vertical Alignment */
+
+/* TEXT */
+
+.textLeft{
+  text-align: left;
+}
+
+.textCenter{
+  display: block;/* Only needed for header*/
+  text-align: center;
+}
+
+.textRight{
+  text-align: right;
+}
+
+.textJustify{
+  text-align: justify;
+}
+
+.textTop{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.textMiddle{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.textBottom{
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+/* DIV */
+.centerAlign{
+  margin: auto;
+  width: 300px; /* Needs a width */
+}
+
+
+
+.centerImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+.rightAlignAbsolute{
+  position: absolute;
+  right: 0px;
+}
+
+.rightAlignFloat{
+  float: right;
+}
+
+.clearfixHack{
+  overflow: auto;
+}
+
+.verticalAlignPadding{
+  padding: 40px;
+}
+
+.centerVerticallyLineheight{
+  height: 100px;
+  line-height: 5;
+  width: 300px;
+}
+
+.centerVertically_Position_and_Transform{
+  position: absolute;
+  /* top: 50%;
+  left: 50%; */
+  transform: translate(20%, 400%);
+}
+
+.centerFlexbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Needs height */
+}

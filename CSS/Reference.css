@@ -1,0 +1,52 @@
+/*Resets Browser Preset CSS settings*/
+*
+p{
+    color: blue;
+    /* This is a comment */
+    /*background: #ffffff url("Jesus_The_Bible.jpeg") no-repeat fixed center; */
+    border: 3px greenyellow;
+    border-radius: 5px;
+}
+
+h1{
+    width: 25px;
+    display: inline;
+}
+
+h2{
+    /*display: block;*/
+}
+
+div{
+    width: 100%;
+    height: 50%;
+    overflow: scroll;
+    background-image: url("Jesus_The_Bible.jpeg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-right: 2px hotpink;
+}
+
+/*
+div{
+  padding-top: 25px;
+  padding-right: 50px;
+  padding-bottom: 75px;
+  padding-left: 50px;
+}
+*/
+
+h1 span {
+    font-weight: bold;
+    color: blue;
+}
+#first{
+    font-size: 36px;
+    background-color: blue;
+    color: white;
+}
+
+.info{
+    background-color: green;
+}

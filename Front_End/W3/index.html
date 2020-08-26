@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Preview</title>
+
+    <!-- Link to CSS document -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="topPadding textCenter">
+        <pre>padding: 30px</pre>
+      </div>
+      <div class="wrapper">
+        <div class="header">
+          <h1>Basic HTML & CSS</h1>
+          <!-- <pre>parent div: text-align: center ??
+ margin-bottom: 50px</pre> Aligns it centered on document-->
+          <pre>parent div: text-align: center</pre>
+          <pre>margin-bottom: 50px</pre>
+        </div>
+        <div class="mainContent">
+          <div class="toprow">
+            <pre class="textCenter">vertical-align: top</pre>
+            <hr />
+            <pre class="textCenter">toprow</pre>
+            <p>Thisi s where the paragraph info goes</p>
+
+            <div class="left">
+              <!-- Comments look like this -->
+              <div>
+                <h1>Heading 1</h1>
+                <h2>Heading 2</h2>
+                <h3>Heading 3</h3>
+                <h4>Heading 4</h4>
+                <h5>Heading 5</h5>
+                <h6>Heading 6</h6>
+              </div>
+              <br />
+              <p class="highlighted">^ Break</p>
+              <a href="https://www.w3schools.com/html/html_attributes.asp">
+                <!-- "" not required but recommended -->
+                <!-- Double ("") quotes are standard but single ('') work as well -->
+                Link to W3Schools
+              </a>
+              <img
+                src="html5.jpg"
+                alt="W3Schools.com"
+                width="142"
+                height="142"
+              />
+              <p style="color: red;">This is a red paragraph</p>
+              <hr />
+              <p class="highlighted">^ hr tag separates some text ^</p>
+              <pre>
+                  pre tag
+                  <hr>
+                  Defines preformatted text
+                  Text inside is displayed 
+                  in a fixed-width font
+                  It preserves both spaces 
+                  & line breaks
+                </pre>
+            </div>
+
+            <div class="right">
+              <b>Bold </b>
+              <strong>Strong </strong>
+              <i>Italic </i>
+              <em>Emphasized </em>
+              <mark>Marked </mark>
+              <small>Small </small>
+              <del>Deleted </del>
+              <ins>Inserted </ins>
+              <sub>Subscript </sub>
+              <sup>Superscript </sup>
+              <br>
+              <code>This is a code tag</code>
+              <br>
+              <br>
+              <blockquote>
+                This is the blockquote that we all talked about
+              </blockquote>
+              <br>
+              <q>Regular quote</q>
+              <br>
+              <br>
+              <div>
+                <abbr title="Hypertext Markup Language ">HTML</abbr>
+                <!-- Allows for full title when mouseover the element -->
+                <p class="highlighted">
+                  ^ Hypertext Markup Language abbreviation ^
+                </p>
+              </div>
+              <br />
+              <address>
+                Written by John Doe.<br />
+                Visit us at:<br />
+                Example.com<br />
+                Box 564, Disneyland<br />
+                USA
+              </address>
+              <p class="highlighted">^ Address ^</p>
+              <br />
+              <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+              <br />
+              <bdo dir="rtl">This text will be written from right to left</bdo>
+            </div>
+
+            <div class="css">
+              <pre class="textCenter">width: 300px;</pre>
+              <br />
+              <h1 class="textCenter">Here we have css</h1>
+              <br />
+              <p class="textCenter" style="text-decoration: underline;">
+                Inline CSS
+              </p>
+              <br />
+              <p class="textCenter">text-align: center</p>
+              <br />
+              <pre class="textCenter">border: solid 1px lightskyblue</pre>
+            </div>
+          </div>
+          <hr />
+          <div class="bottomrow">
+            <div> <!-- Vertical & Horizontal Alignment -->
+              <pre class="textCenter">bottomrow</pre>
+              <br />
+              <div class="subheader">
+                <h3>Vertical & Horizontal Alignment</h3>
+                <pre>parent div: text-align: center</pre>
+                <pre>margin-bottom: 20px</pre>
+              </div>
+              <div class="grid border" > <!-- Text Alignment -->
+                <p class="textLeft border width200 item_1"> <code> text-align: left; </code></p>
+                <p class="textCenter border width200 item_2"> <code>text-align: center; </code> </p>
+                <p class="textRight border width200 item_3"> <code> text-align: right; </code></p>
+                <br>
+                <p class="textJustify border width200 item_4"> <code> text-align: justify; </code> This is how text justified will space out all of the text in a div box</p>
+                <!-- <div class="border item_5">
+                  <p class="textTop textCenter border width200 height20"> <code>vertical-align: top;</code></p>
+                  <p class="textMiddle textCenter border width200 height20"> <code>vertical-align: middle;</code></p>
+                  <p class="textBottom textCenter border width200 height20"> <code>vertical-align: bottom;</code></p>
+                </div> -->
+              </div>
+              <br>
+              <br>
+              <div> <!-- Div Alignment -->
+                <div class="centerAlign textCenter border">
+                  Div Center Aligned: margin: auto;
+                </div>
+                <br />
+                <div class="border textCenter">
+                  <img class="centerImg" src="CSS3.jpg" alt="" />
+                  <pre>display: block;</pre>
+                  <pre>margin-left: auto;</pre>
+                  <pre>margin-right: auto;</pre>
+                </div>
+                <br />
+                <div class="rightAlignAbsolute border textCenter width200">
+                  <pre>Right Align Absolute</pre>
+                  <pre>position: absolute</pre>
+                  <pre>right: 0px;</pre>
+                </div>
+                <br />
+                <br />
+                <br />
+                <br />
+                <div class="rightAlignFloat border textCenter width200">
+                  <pre>Right Align Float</pre>
+                  <pre>float: rignt;</pre>
+                </div>
+                <br />
+                <br />
+                <br />
+                <div class="verticalAlignPadding border textCenter width200">
+                  <p>Vertically Aligned with Padding</p>
+                  <pre>padding: 40px;</pre>
+                </div>
+                <br />
+                <div
+                  class="centerVerticallyLineheight border textCenter width200"
+                >
+                  <p>Vertically Aligned with Lineheight</p>
+                  <pre style="line-height: 0;">height: 100px;</pre>
+                  <pre style="line-height: 2;">line-height: 5;</pre>
+                </div>
+                <br />
+                <div class="border" style="height: 200px; width: 400px;">
+                  <p class="centerVertically_Position_and_Transform">
+                    Centered Vertically with Position & Transform
+                  </p>
+                  <pre class="centerVertically_Position_and_Transform">
+transform: translate(20%, 400%);</pre
+                  >
+                </div>
+                <br />
+                <div class="centerFlexbox border width200">
+                  <p>Centered with Flexbox</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
